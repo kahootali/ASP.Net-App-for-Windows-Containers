@@ -9,7 +9,7 @@ A simple example using asp.net to serve a web page. First `clone` this repositor
 ```
 
 $ git clone https://github.com/kahootali/ASP.Net-App-for-Windows-Containers.git
-$ cd ASP.Net-App-for-Windows-Containers/aspnet-web/webserver
+$ cd ASP.Net-App-for-Windows-Containers/webserver
 $ docker build -t myaspnet .
 $ docker run myaspnet
 ```
