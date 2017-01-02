@@ -22,4 +22,4 @@ Then inspect the IP of the container by :
 docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" <Container-ID>
 ```
 
-Then open up <container-IP>:5000 in browser
+Then open up [container-IP:5000] in browser
