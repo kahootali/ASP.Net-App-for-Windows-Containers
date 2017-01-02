@@ -13,4 +13,15 @@ $ cd ASP.Net-App-for-Windows-Containers/webserver
 $ docker build -t myaspnet .
 $ docker run myaspnet
 ```
-Then open up [http://localhost:5000](http://localhost:5000)
+
+Then inspect the IP of the container by :
+
+```
+docker ps -a
+```
+Get the container ID
+```
+docker inspect <Container-ID>
+```
+
+Then open up container-IP:5000 in browser
